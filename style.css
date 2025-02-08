@@ -1,0 +1,79 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background: #2c3e50;
+  color: white;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.pdf-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.pdf-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 4px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.pdf-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #27ae60;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.download-btn:hover {
+  background: #219a52;
+}
+
+.file-info {
+  margin: 10px 0;
+  font-size: 0.9em;
+  color: #666;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.loading {
+  display: none;
+  text-align: center;
+  padding: 20px;
+}
